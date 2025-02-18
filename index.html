@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Greeting</title>
+    <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>HEY</h1>
+        <h2>ITS YOUR</h2>
+        <h1>BIRTHDAY!</h1>
+    <button id="play-button">🎵 nyalakan aku🥰</button>
+
+        <div class="cake-icon">🎂</div>
+        <p class="happy" data-aos="zoom-out">HAPPY 24th BIRTHDAY!</h1>
+        <p class="ita" data-aos="zoom-in">ITA IRMAWATI</h2>
+        <p class="bestie" data-aos="fade-up">Happy Birthday, bestie! 🎉🎂 16 tahun kita berteman, dan aku bersyukur setiap hari memiliki kamu di hidupku. 
+            Semoga tahun ini membawa banyak kebahagiaan, cinta, dan petualangan baru. 
+            Let's make more memories together! Love you 🥰</p>
+        <img src="stc.webp" alt="Memories">
+        <img src="IMG_20250212_174639_585.jpg" alt="gambar1" />
+        <img src="IMG_20250212_174650_202.jpg" alt="gambar2" />
+        <img src="IMG_20250207_100344_748.jpg" alt="gambar3" />
+        <img src="IMG_20250212_174720_423.jpg" alt="gambar4" />
+        <img src="IMG_20250212_174710_180.jpg" alt="gambar5" />
+        <img src="IMG-20230605-WA0039.jpg" alt="gambar6" />
+        <img src="IMG-20241204-WA0021.jpg" alt="gambar7" />
+        <img src="Tak berjudul55_20250107125815.jpg" alt="gambar8" />
+        
+
+
+    </div>
+    <audio id="background-music" loop>
+
+        <source src="mp3.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        document.getElementById('play-button').addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            audio.play();
+            this.style.display = 'none'; // Hide button after click
+        });
+
+     </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+       </script>
+</body>
+</html>
